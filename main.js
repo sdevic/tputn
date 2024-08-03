@@ -41,7 +41,7 @@ function validarFormulario(){
         document.getElementById('errorComentario').innerText = "";
     }
     if(email ===''){
-        document.getElementById('errorEmail').innerText = "El nombre es obligatorio";
+        document.getElementById('errorEmail').innerText = "El mail es obligatorio";
         valid =false;
     }else{
         document.getElementById('errorEmail').innerText = "";
