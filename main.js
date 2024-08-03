@@ -86,8 +86,9 @@ const getMensaje = ()=>{
             
         }
     };
+    //mientras mandaba el tp me di cuenta que debia poner la pagina en donde subia la aplicacion
     // inicio la solicituda get
-    http.open('GET',"https://sdevic.github.io/unidad2_utn/mensaje.txt",true);
+    http.open('GET',"https://sdevic.github.io/tputn/mensaje.txt",true);
      //enviar solicitus al servidor
      http.send();
     
