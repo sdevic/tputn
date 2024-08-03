@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Contacto</title>
+</head>
+<body>
+    <div id="envioContacto">
+        
+        <form action="" id="ingresoForm">
+            <h1 id="tituloContacto">Contacto:</h1>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="ingrese su nombre">
+            <div id="errorNombre" class="error"></div>
+            <labe  for="apellido">Apellido</labe>
+            <input type="text" id="apellido" name="apellido" placeholder="ingrese su apellido">
+            <div id="errorApellido" class="error"></div>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="ingrese su email" >
+            <div id="errorEmail" class="error"></div>
+            <label for="telefono">telefono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="ingrese su telefono">
+            <label for="tipoDeContacto">Tipo de Contacto</label>
+            <select id="tipoDeContacto" >     
+                <option >Soporte</option>   
+                <option >Ventas</option>                  
+            </select>
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="asunto" placeholder="ingrese el asunto">
+            <div id="errorAsunto" class="error"></div>
+            <label for="comentario">Descripcion</label>
+            <input type="text" id="comentario" name="comentario" placeholder="Descripcion">
+            <div id="errorComentario" class="error"></div>
+            <button id="enviar" type="submit">Enviar</button>
+    
+        </form>
+    </div>
+  
+    <div id="mensaje"> 
+    </div>
+    
+    <button  id="volver" style="display: none;" >Volver</button>
+    <script src="main.js"></script>
+</body>
+</html>
