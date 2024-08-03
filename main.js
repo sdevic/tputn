@@ -87,7 +87,7 @@ const getMensaje = ()=>{
         }
     };
     // inicio la solicituda get
-    http.open('GET',"http://127.0.0.1:5501/mensaje.txt",true);
+    http.open('GET',"https://sdevic.github.io/unidad2_utn/mensaje.txt",true);
      //enviar solicitus al servidor
      http.send();
     
